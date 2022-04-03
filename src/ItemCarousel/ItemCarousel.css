@@ -1,0 +1,41 @@
+@import "../App/index.css";
+
+.title-item {
+    font-family: var(--secondary-font-family);
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.category-item {
+    color: rgb(156, 156, 156);
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.item-carousel {
+    margin: 20px 10px;
+    cursor: pointer;
+    padding: 30px;
+    transition: all .3s ease;
+}
+
+.item-carousel:hover {
+    box-shadow: 6px 6px 26px -11px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 1500px) {
+
+    .image-item {
+        width: 350px;
+    }
+
+    .title-item {
+        font-size: 40px;
+    }
+
+    .category-item {
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,44 @@
+@import "../App/index.css";
+
+.content-about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    height: 600px;
+}
+
+.title-about-us {
+    font-weight: 500;
+    font-family: var(--secondary-font-family);
+    font-size: 3.75rem;
+    margin-bottom: 30px;
+}
+
+.text-about-us p {
+    max-width: 650px;
+    font-size: 1.5rem;
+}
+
+.logo-about-us {
+    justify-self: center;
+    width: 30%;
+}
+
+
+@media (max-width: 1400px) {
+    .content-about-us {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 50px 50px;
+        height: 40%;
+    }
+
+    .title-about-us {
+        font-size: 3rem;
+    }
+
+    .text-about-us {
+        font-size: 1rem;
+    }
+}
